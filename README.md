@@ -25,12 +25,6 @@ $ npm install /path/to/grunt-remove-logging --save-dev
 // Gruntfile.js
 grunt.initConfig({
     'remove-logging': {
-        options: {
-            verbose: true,
-            mangle: true,       // enable `esmangle`
-            optimize: true,     // passed to `esmangle`
-            beautify: true,     // passed to `escodegen`
-        },
         files: {
             src: ['lib/**/*.js'],
             dest: 'dist/'
