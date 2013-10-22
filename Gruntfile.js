@@ -8,7 +8,8 @@ module.exports = function(grunt) {
         // Metadata.
         pkg: grunt.file.readJSON('package.json'),
 
-        banner: '/*!\n * <%= pkg.title || pkg.name %> (<%= pkg.version %>) - <%= grunt.template.today("yyyy-mm-dd") %>\n' +
+        banner: '/*!\n * <%= pkg.title || pkg.name %> (<%= pkg.version %>) -' +
+                ' <%= grunt.template.today("yyyy-mm-dd") %>\n' +
                 ' <%= pkg.repository.url ? "* " + pkg.repository.url + "\\n" : "* " %>' +
                 ' * Copyright (c) <%= grunt.template.today("yyyy") %> <%= pkg.author.name %>;' +
                 ' License: <%= pkg.license %>\n */\n',
