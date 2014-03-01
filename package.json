@@ -1,5 +1,5 @@
 {
-    "name": "grunt-remove-logging.js",
+    "name": "grunt-remove-logging",
     "version": "0.0.1",
     "description": "A grunt plugin to remove 'console'-log statements from javascript code.",
     "main": "bin/tasks/index.js",
