@@ -48,11 +48,11 @@ $ grunt remove-logging
 
 #### Dependencies
 
-* lodash `(2.0.0)`
+* lodash `(2.4.1)`
 * esprima `(1.0.4)`
-* escodegen (`0.0.27)`
-* estraverse `(1.3.1)`
-* esmangle `(0.0.1)`
+* escodegen (`1.2.0)`
+* estraverse `(1.5.1)`
+* esmangle `(1.0.0)`
 
 
 #### Roadmap
