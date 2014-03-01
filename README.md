@@ -1,4 +1,14 @@
 ### Grunt-Remove-Logging (0.0.1)
+--
+
+[![GitHub version][version_png]][version_url] [![Dependency Status][dm_png]][dm_url]
+
+[version_png]: https://badge.fury.io/gh/davidlinse%2Fgrunt-remove-logging.png
+[version_url]: http://badge.fury.io/gh/davidlinse%2Fgrunt-remove-logging
+[dm_png]: https://david-dm.org/davidlinse/grunt-remove-logging.png
+[dm_url]: https://david-dm.org/davidlinse/grunt-remove-logging
+
+--
 
 Removes `console` related statements from JavaScript code by AST modification and code re-generation.
 
