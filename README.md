@@ -1,4 +1,14 @@
 ### Grunt-Remove-Logging (0.0.1)
+--
+
+[![GitHub version][version_png]][version_url] [![Dependency Status][dm_png]][dm_url]
+
+[version_png]: https://badge.fury.io/gh/davidlinse%2Fgrunt-remove-logging.png
+[version_url]: http://badge.fury.io/gh/davidlinse%2Fgrunt-remove-logging
+[dm_png]: https://david-dm.org/davidlinse/grunt-remove-logging.png
+[dm_url]: https://david-dm.org/davidlinse/grunt-remove-logging
+
+--
 
 Removes `console` related statements from JavaScript code by AST modification and code re-generation.
 
@@ -48,11 +58,11 @@ $ grunt remove-logging
 
 #### Dependencies
 
-* lodash `(2.0.0)`
+* lodash `(2.4.1)`
 * esprima `(1.0.4)`
-* escodegen (`0.0.27)`
-* estraverse `(1.3.1)`
-* esmangle `(0.0.1)`
+* escodegen (`1.2.0)`
+* estraverse `(1.5.1)`
+* esmangle `(1.0.0)`
 
 
 #### Roadmap
@@ -66,7 +76,7 @@ $ grunt remove-logging
 
 (The MIT License)
 
-Copyright (c) 2013 David Linse <davidlinse@gmail.com>
+Copyright (c) 2013 - 2014 David Linse <davidlinse@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation
 files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy,
