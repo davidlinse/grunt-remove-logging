@@ -34,12 +34,12 @@ $ npm install /path/to/grunt-remove-logging --save-dev
 ```
 // Gruntfile.js
 grunt.initConfig({
-    'remove-logging': {
-        files: {
-            src: ['lib/**/*.js'],
-            dest: 'dist/'
-        }
+  'remove-logging': {
+    files: {
+      src: ['lib/**/*.js'],
+      dest: 'dist/'
     }
+  }
 });
 
 // as long as not an 'npm' module
